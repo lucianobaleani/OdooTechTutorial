@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+
+        <record id="task_01" model="cooperative_shop.task">
+            <field name="name">Farming</field>
+            <field name="start_time">2023-09-11 14:55:32</field>
+            <field name="stop_time">2023-09-11 14:55:32</field>
+            <field name="occurrences">1</field>
+            <field name="description">Planting the seeds for future harvest</field>
+            <field name="task_type">farming</field>
+        </record>
+
+        <record id="task_02" model="cooperative_shop.task">
+            <field name="name">Shop</field>
+            <field name="start_time">2023-09-11 14:55:32</field>
+            <field name="stop_time">12023-09-11 14:55:32</field>
+            <field name="occurrences">3</field>
+            <field name="description">Product selling</field>
+            <field name="task_type">shop</field>
+        </record>
+        
+        <record id="task_03" model="cooperative_shop.task">
+            <field name="name">Harvest</field>
+            <field name="start_time">2023-09-11 14:55:32</field>
+            <field name="stop_time">2023-09-11 14:55:32</field>
+            <field name="occurrences">1</field>
+            <field name="description">Harversting Products</field>
+            <field name="task_type">harvest</field>
+        </record>
+
+    </data>
+
+</odoo>

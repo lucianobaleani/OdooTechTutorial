@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+
+        <record id="book_01" model="library.book">
+            <field name="name">The Little Prince</field>
+            <field name="active">True</field>
+            <field name="isbn">147-8-45-145285-9</field>
+            <field name="genre">Fantasy Novel</field>
+            <field name="summary">The Little Prince is an honest and beautiful story about loneliness, friendship, sadness, and love. 
+                                The prince is a small boy from a tiny planet (an asteroid to be precise), who travels the universe, planet-to-planet, seeking wisdom. 
+                                On his journey, he discovers the unpredictable nature of adults.
+            </field>
+            <field name="author">Antoine de Saint-Exupéry</field>
+            <field name="book_format">paperback</field>
+            <field name="language">fr</field>
+            <field name="edition">40</field>
+            <field name="publisher">Éditions Galilée</field>
+            <field name="publish_date">1995-05-12</field>
+            <field name="price">45.99</field>
+        </record>
+
+        <record id="book_02" model="library.book">
+            <field name="name">Dracula</field>
+            <field name="active">False</field>
+            <field name="isbn">250-4-85-897432-6</field>
+            <field name="genre">Gothic Fantasy Novel</field>
+            <field name="summary">
+                            Dracula comprises journal entries, letters, and telegrams written by the main characters. 
+                            It begins with Jonathan Harker, a young English lawyer, as he travels to Transylvania. 
+                            Harker plans to meet with Count Dracula, a client of his firm, in order to finalize a property transaction.
+            </field>
+            <field name="author">Bram Stoker</field>
+            <field name="book_format">hardcover</field>
+            <field name="language">en</field>
+            <field name="edition">20</field>
+            <field name="publisher">Mainstream Publishing</field>
+            <field name="publish_date">2023-01-12</field>
+            <field name="price">55.58</field>
+        </record>
+        
+        <record id="book_03" model="library.book">
+            <field name="name">The Invisible Man</field>
+            <field name="active">True</field>
+            <field name="isbn">777-2-20-412824-4</field>
+            <field name="genre">Sci-Fi Novel</field>
+            <field name="summary">Griffin, a mysterious man sometimes referred to as 'the stranger', arrives at an inn owned by Mr. and Mrs. Hall of the English village of Iping, West Sussex, during a snowstorm</field>
+            <field name="author">H.G Wells</field>
+            <field name="book_format">audiobook</field>
+            <field name="language">de</field>
+            <field name="edition">14</field>
+            <field name="publisher">Aufbau Verlag</field>
+            <field name="publish_date">2012-04-30</field>
+            <field name="price">20.15</field>
+        </record>
+
+    </data>
+
+</odoo>

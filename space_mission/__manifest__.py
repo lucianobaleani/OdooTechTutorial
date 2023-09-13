@@ -12,6 +12,6 @@
     "category": "Custom Modules/Tech Training",
     "depends": ["base"],
     "data": [],
-    "demo": [],
+    "demo": ["demo/spaceship_demo.xml"],
     "application": True,
 }
