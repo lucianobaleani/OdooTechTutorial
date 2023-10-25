@@ -37,6 +37,7 @@ class Course(models.Model):
         string="Total Price",
         currency_field="currency_id",
         compute="_compute_total_price",
+        store=True,
     )
 
     @api.depends("base_price", "additional_fee")
