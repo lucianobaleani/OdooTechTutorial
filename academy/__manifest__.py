@@ -10,7 +10,7 @@
     "author": "lucianobaleani",
     "website": "www.odoo.com.ar",
     "category": "Custom Modules/Tech Training",
-    "depends": ["base"],
+    "depends": ["sale"],
     "data": [
         "security/academy_groups.xml",
         "security/ir.model.access.csv",
@@ -19,6 +19,7 @@
         "views/academy_menuitems.xml",
         "views/course_views.xml",
         "views/session_views.xml",
+        "views/sale_order_inherited_views.xml",
     ],
     "demo": ["demo/course_demo.xml"],
     "application": True,
